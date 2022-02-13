@@ -68,16 +68,13 @@
 - [] freeShipping: {type:Boolean}
 - [] inventory:{type:Number}
 - [] averageRating:{type:Number}
-- [] user
 - [] set timestamps
 - [] export Product model
 
 #### Product Structure
 
 - [] add productController file in controllers
-- [] export (createProduct, getAllProducts,
-  getSingleProduct, updateProduct, deleteProduct) functions
-- [] res.send('function name')
+- [] export (createProduct, getAllProducts, getSingleProduct, updateProduct, deleteProduct) functions
 - [] setup product file in routes
 - [] import all controllers
 - [] import productRoutes as productRouter in the app.js
@@ -92,10 +89,7 @@
 - [] subtotal: {type:Number}
 - [] total: {type:Number}
 - [] orderItems:[]
-- [] status:{type:String}
 - [] user
-- [] clientSecret:{type:String}
-- [] paymentId:{type:String}
 - [] set timestamps
 - [] export Order model
 
@@ -103,10 +97,8 @@
 
 - [] add orderController file in controllers
 - [] export (getAllOrders, getSingleOrder,createOrder, updateOrder, deleteOrder) functions
-- [] res.send('function name')
 - [] setup order file in routes
 - [] import all controllers
 - [] authenticate user in all routes
-- [] typical REST setup
 - [] import orderRoutes as orderRouter in the app.js
 - [] setup app.use('/api/v1/orders', orderRouter)
