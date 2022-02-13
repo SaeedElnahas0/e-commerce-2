@@ -33,7 +33,6 @@
 - [] create routes folder
 - [] setup auth file
 - [] import all controllers
-- [] setup three routes
 - [] post('/register') post('/login') get('/logout') get('/') get('/:id') patch('/updateuser/:id')     patch('updatepassword/:id') delete('/:id')
 - [] import authRoutes as authRouter in the app.js
 - [] setup app.use('/api/v1/auth', authRouter)
